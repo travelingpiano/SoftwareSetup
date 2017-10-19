@@ -28,6 +28,6 @@ A short guide on how to use Git for group projects, including syntax for merges 
 - can be done easily on Github
 - on locally, do as follows: `git branch -d branch-name`
 
-## Merge changes in master to feature branch
+### Merge changes in master to feature branch
 - do `git merge`
 - in the subsequent (kind of disgusting) screen, calmly type `:quit`. Merge will be smoothly made if no conflicts
