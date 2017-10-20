@@ -31,3 +31,7 @@ A short guide on how to use Git for group projects, including syntax for merges 
 ### Merge changes in master to feature branch
 - do `git merge`
 - in the subsequent (kind of disgusting) screen, calmly type `:quit`. Merge will be smoothly made if no conflicts
+
+### Adding changes
+- there's always the short and simple `git add -A` to add all your changes
+- but there's also `git add -p` that allows you to view the changes one-by-one in terminal, and giving you the option to accept or decline the change. can prevent too many trivial commits to fix earlier over-adding issues
